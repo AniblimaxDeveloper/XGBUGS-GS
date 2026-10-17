@@ -8,6 +8,11 @@ android {
     namespace = "com.xgbugs.gs"
     compileSdk = 36
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     defaultConfig {
         applicationId = "com.xgbugs.gs"
         minSdk = 26
@@ -15,7 +20,10 @@ android {
         versionCode = 1
         versionName = "1.0"
     }
-    buildFeatures { compose = true }
+
+    buildFeatures {
+        compose = true
+    }
 }
 
 dependencies {
