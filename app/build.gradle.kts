@@ -11,8 +11,8 @@ android {
         applicationId = "com.xgbugs.gs"
         minSdk = 23
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 5
+        versionName = "5.0"
     }
 
     // Keep javac and Kotlin bytecode targets aligned. This fixes the

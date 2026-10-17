@@ -98,7 +98,7 @@ class MainActivity : Activity() {
         root.addView(scroll, LinearLayout.LayoutParams(-1, 0, 1f))
 
         addGap(root, 8)
-        val footer = label("XGBUGS GS  •  LOCAL SAFE MODE  •  v1.0", 10, muted, true).apply {
+        val footer = label("XGBUGS GS  •  LOCAL SAFE MODE  •  v5.0", 10, muted, true).apply {
             gravity = Gravity.CENTER
             letterSpacing = 0.06f
             setPadding(0, dp(4), 0, dp(2))
@@ -316,7 +316,7 @@ class MainActivity : Activity() {
             render()
         })
         addGap(parent, 16)
-        parent.addView(noteCard("INFORMASI", "Nama: XGBUGS GS\nVersi: 1.0\nMode: lokal / simulasi\nIzin khusus: tidak ada", muted))
+        parent.addView(noteCard("INFORMASI", "Nama: XGBUGS GS\nVersi: 5.0\nMode: lokal / simulasi\nIzin khusus: tidak ada", muted))
         addGap(parent, 10)
         parent.addView(actionCard("↻  RESET PREFERENSI", "Kembalikan pengaturan ke nilai awal.", panel) {
             AlertDialog.Builder(this)
